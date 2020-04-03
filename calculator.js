@@ -12,9 +12,9 @@ let calculator = {
     Division: function(num1, num2) {
         return (num1/num2)
     }
-    Exponents: function(k, l,) {
-        for(let i = 0; i > l ;i++) {
-        this.Exponents.k * this.Exponents.k
+    Exponents: function(num1, num2,) {
+        return (num1 ** num2)
+    }
     }
     return k
 }
