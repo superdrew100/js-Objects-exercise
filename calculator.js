@@ -1,15 +1,16 @@
+memorynum = 0
 let calculator = {
-    Addition: function(a, b) {
-        return (this.Addition.a + this.Addition.b)
+    Addition: function(num1, num2) {
+        return memorynum+(num1 + num2)
     }
-    Subtraction: function(c, d) {
-        return (this.Subtraction.c - this.Subtraction.d)
+    Subtraction: function(num1, num2) {
+        return memorynum+(num1 - num2)
     }
-    Multiplication: function(e, f) {
-        return (this.Multiplication.e + this.Multiplication.f)
+    Multiplication: function(num1, num2) {
+        return (num1 + num2)
     }
-    Division: function(g, h) {
-        return (this.Division.g/this.Division.h)
+    Division: function(num1, num2) {
+        return (num1/num2)
     }
     Exponents: function(k, l,) {
         for(let i = 0; i > l ;i++) {
